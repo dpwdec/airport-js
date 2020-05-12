@@ -4,9 +4,7 @@ describe('Plane', function() {
   beforeEach(function() {
     plane = new Plane();
     port = {
-      name: function() {
-        return 'Heathrow';
-      }
+      name: 'Heathrow'
     };
   });
 

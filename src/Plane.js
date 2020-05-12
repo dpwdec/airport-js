@@ -8,6 +8,6 @@ class Plane {
   }
 
   getPortName() {
-    return this.port.name();
+    return this.port.name;
   }
 }
